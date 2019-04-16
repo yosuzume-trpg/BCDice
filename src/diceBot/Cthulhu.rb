@@ -294,7 +294,7 @@ INFO_MESSAGE_TEXT
         target << target_name[noDice(1,target_name.length)-1] if target_name
         if( dice > 100-@fumble_percentage )
           fum = fum + 1
-          output_mark << "✖"
+          output_mark << "?"
         elsif( dice > diff )
           fil = fil + 1
           output_mark << "×"
